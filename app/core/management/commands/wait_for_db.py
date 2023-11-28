@@ -28,4 +28,3 @@ class Command(BaseCommand):
                 self.stdout.write('cant connect to database, retry in 1 seconde')
                 time.sleep(1)
         self.stdout.write(self.style.SUCCESS('Connection Established with Database'))
-        
